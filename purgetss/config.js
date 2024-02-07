@@ -1,6 +1,7 @@
 module.exports = {
   purge: {
     mode: 'all',
+    method: 'async', // how to execute auto-purging: sync or async
     options: {
       legacy: false,
       missing: true,
